@@ -4,7 +4,7 @@
     left: 0;
     right:0;
     width:100%;
-    height: 20%;
+    height: 40%;
     background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); 
     background-size:400%;
     animation: gradient 15s ease infinite;
@@ -61,7 +61,7 @@
 }
 
 .row-13 img {
-   width: 85%;
+   width: 5%;
     
 } 
 .col-24 h1 {
@@ -86,6 +86,29 @@
 
 
 
+/* some changes in form */
+.final{
+  float: right;
+  margin-right: 100px;
+  margin-top:100px;
+
+}
+.final .formf{
+  margin-left: 150px;
+  width:auto;
+}
+
+
+.final1{
+  margin-left: 140px;
+  width: 35%;
+  margin-top:100px;
+  
+}
+
+
+
+
 
 
 
@@ -99,11 +122,6 @@
 
   /* form  */
 
-.s123{
-
-    width:100%;
-
-}
 
 .text
 {
@@ -411,11 +429,7 @@ width:40%;
 header nav{
   display:none;
 }
-.same{
-  height:40%;
 
-  
-}
 .makeitppr{
   margin-top:50px;
   font-size:30px;

@@ -10,12 +10,17 @@
   /* margin-right: 10px; */
   /* margin-left:3px; */
   float: left;
-  width: 25%;
-  padding: 0 10px;
+  width: 32%;
+  padding-right:100px;
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row12 {
+  
+  margin-left:120px;
+  margin-top:-100px;
+
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -31,7 +36,7 @@
     width: 100%;
     display: block;
     margin-bottom: 0px;
-    margin-top:400px
+    margin-top:40px
   }
 }
 
@@ -40,7 +45,7 @@
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
-  margin-left:30px;
+  margin-left:0px;
   text-align: center;
   background-color: #fffefe;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
