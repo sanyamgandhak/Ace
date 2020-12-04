@@ -422,7 +422,7 @@ header nav{
   margin-left:90px;
 }
 .notsame{
-  margin-left:20px;
+  margin-left:4px;
   font-size:14px;
   display: block;
 }
@@ -437,14 +437,15 @@ header nav{
  margin-left:0px;
  margin-bottom:80px;
 }
+
 .row-13 p{
   font-size:0px;
   display:none;
 }
 .row-13 img{
   margin-top:200px;
-  width:70%;
-  margin-left:40px;
+  width:150%;
+  margin-left:50px;
   
 }
 .menu-wrap .hamburger {
