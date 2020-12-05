@@ -420,9 +420,9 @@ form h1{
          
 }
 
-/* @media  (min-width:600px) and (max-width: 1200px) {
+ @media  (min-width:600px) and (max-width: 1200px) { */
 .makeitppr{
-font-size: 50px;
+font-size: 0px;
 margin-left:0px;
 }
 .notsame{
@@ -444,6 +444,17 @@ width:40%;
 .menu-wrap{
   display:none;
 }
+.mobile3{
+  display: none;
+}
+.noh{
+  display: none;
+}
+.final1{
+  margin-top:100px;
+  margin-left: 10px;
+}
+
  
 } */
 
