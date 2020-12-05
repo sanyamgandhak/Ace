@@ -401,18 +401,22 @@ form h1{
          
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
   header nav {
              
        left: 5.5%;
              
       }
-      .final2{
-        display: none;
-      }
-      .finalmobile{
-        display: none;
-      }
+    .mobile3{
+      display: none;
+    }
+    .noh{
+      display: none;
+    }
+    
+      
+    
+      
          
 }
 
