@@ -4,7 +4,7 @@
     left: 0;
     right:0;
     width:100%;
-    height: 40%;
+    height: 50%;
     background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); 
     background-size:400%;
     animation: gradient 15s ease infinite;
@@ -382,6 +382,7 @@ form h1{
     .menu-wrap .menu{
       display:none;
     }
+   
   }
   
 /* media queries */
@@ -391,11 +392,31 @@ form h1{
        left: 5.5%;
              
       }
+      .final2{
+        display: none;
+      }
+      .finalmobile{
+        display: none;
+      }
          
 }
 
+@media only screen and (min-width: 1300px) {
+  header nav {
+             
+       left: 5.5%;
+             
+      }
+      .final2{
+        display: none;
+      }
+      .finalmobile{
+        display: none;
+      }
+         
+}
 
-@media  (min-width:600px) and (max-width: 1200px) {
+/* @media  (min-width:600px) and (max-width: 1200px) {
 .makeitppr{
 font-size: 50px;
 margin-left:0px;
@@ -420,6 +441,15 @@ width:40%;
   display:none;
 }
  
+} */
+
+.final2{
+  width:20%;
+  margin-left:70px;
+}
+.finalmobile{
+  margin-left:20%;
+
 }
 
 
@@ -429,29 +459,55 @@ width:40%;
 header nav{
   display:none;
 }
+.final{
+  display:none;
+}
+.final1{
+  display:none;
+}
+.row12{
+  margin-top:720px;
+} 
+.mobile3 .w2{
+  width: 50%;
+  margin-left:90px;
+  margin-top:20px;
+}
+.mobile3 .formf2{
+  width: 70%;
+  margin-left:105px;
+}
+.finalformobile .noh{
+  font-size: 20px;
+  text-align: center;
+  /* margin-top: 0px; */
+}
+.mobileup{
+  margin-top:330px;
+}
+.card12{
+  
+  text-align: center;
+  background-color: #fffefe;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+}
+.same{
+  height: 30%;
+}
 
 .makeitppr{
-  margin-top:50px;
+  margin-top:00px;
   font-size:30px;
   margin-left:90px;
 }
 .notsame{
-  margin-left:4px;
-  font-size:14px;
+  margin-left:64px;
+  font-size:10px;
   display: block;
 }
-.row-13 .s123{
-  margin-left:70px;
-  margin-top:300px;
-  width:100%;
-}
-#test1{
- color:black;
- font-size:25px;
- margin-left:0px;
- margin-bottom:80px;
-}
 
+
+/* 
 .row-13 p{
   font-size:0px;
   display:none;
@@ -461,7 +517,7 @@ header nav{
   width:150%;
   margin-left:50px;
   
-}
+} */
 .menu-wrap .hamburger {
   display:flex;
   background-color: transparent;
@@ -474,6 +530,8 @@ header nav{
 }
 
 
+
+/*  */
 
 
 
