@@ -372,7 +372,7 @@ form h1{
 }
 
 
-@media  (min-width:1305px) {
+@media  (min-width:1205px) {
     .menu-wrap .hamburger{
       display: none;
     }
@@ -391,6 +391,9 @@ form h1{
              
        left: 5.5%;
              
+      }
+      .makeitppr{
+        margin-left:0px;
       }
       .final2{
         display: none;
