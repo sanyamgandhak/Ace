@@ -346,7 +346,7 @@ form h1{
    
    
     .s1{
-        margin-left:10px;;
+        margin-left:10px;
 }
 
 .sideme1{
@@ -357,6 +357,26 @@ form h1{
 
 
 @media  (min-width:305px) and (max-width:500px) and (orientation: portrait) {
+  header {
+    background-image:url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1993&q=80');
+    background-repeat: no-repeat;
+    height:370px;
+    background-size: cover;
+    
+}
+
+.text-typing {
+  /* padding:20px 30px; */
+  /* background:#f5f5f5; */
+  margin-top:-180px;
+  font-size:48px;
+  font-family:monospace;
+
+  color:whitesmoke
+  /* border-radius:50px; */
+}
+
+
   .sideme1{
     display:none
  }
